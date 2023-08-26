@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="shortcut icon" href="/imagens/rock-paper-scissors.ico" type="image/x-icon">
+    <title>RPS</title>
+</head>
+<body>
+    
+    <h1>Welcome to the Rock Paper Scissors</h1>
+    <div class="game">
+        <h2>choose one:</h2>
+            <div class="choices">
+                <img onclick="rockChoice()" src="/imagens/rock-hand.png" alt="Rock" id="Rock-hand">
+                <img onclick="paperChoice()" src="/imagens/paper-hand.png" alt="Paper" id="Paper-hand">
+                <img onclick="scissorChoice()" src="/imagens/scissors-hand.png" alt="Scissors" id="Scissor-hand">
+            </div>
+        <div class="scoreboard">
+            <p id="playerScore"></p>
+            <img src="/imagens/score.png" alt="Score" id="score">
+            <p id="computerScore"></p>
+        </div>
+        <div class="x1">
+            <div class="playerChoiceImg">
+                <img src="/imagens/RPSHands.png" alt="" id="player">
+            </div>
+            <img src="/imagens/fight.png" alt="x1" id="x1Img">
+            <div class="machineChoiceImg">
+                <img src="/imagens/RPSHands.png" alt="" id="machine">
+             </div>
+        </div>
+    </div>
+    
+    <footer> 
+        <p>&copy; Copyright 2023 Hiago de L. Zavarize. All Rights Reserved</p>
+    </footer>
+    <script src="scripts.js"></script> 
+</body>
+</html>

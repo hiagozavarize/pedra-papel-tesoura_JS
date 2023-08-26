@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+}
+body h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+.game{
+    margin-bottom: 13rem;
+}
+.game h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.choices{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.choices img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.choices img:hover{
+    transform: scale(1.1);
+}
+.x1{
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#x1Img{
+    width: 70px;
+    height: 70px;
+}
+.playerChoiceImg img{
+    width: 200px;
+    height: 200px;
+}
+.machineChoiceImg img{
+    width: 200px;
+    height: 200px;
+
+}
+.scoreboard{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.scoreboard p{
+    font-size: 2em;
+    font-weight: bold;
+}
+#score{
+    width: 50px;
+}
+footer{
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    margin-bottom: 0;
+}
