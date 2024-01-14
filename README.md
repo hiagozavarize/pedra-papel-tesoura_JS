@@ -4,4 +4,4 @@
 
 ## click <a href = "https://pedra-papel-tesoura-js-ten.vercel.app/">here</a> to play
 
-<img href = "">
+<img src = "/imagens/img pedra papel tesoura.png">
