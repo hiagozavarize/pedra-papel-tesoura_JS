@@ -104,6 +104,11 @@ function scoreMachine(){
     document.getElementById("computerScore").innerHTML = mScore++
 }
 
+let year = new Date()
+let currentYear = year.getFullYear()
+document.getElementById('year').innerHTML = `&copy; Copyright ${currentYear} Hiago de L. Zavarize. All Rights Reserved`
+
+
 
 
 
